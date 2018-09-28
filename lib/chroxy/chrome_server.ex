@@ -338,6 +338,7 @@ defmodule Chroxy.ChromeServer do
         --no-first-run
         --no-sandbox
         --incognito
+        --ignore-certificate-errors
       ),
       verbose_logging: 0,
       crash_dumps_dir: "/tmp"
